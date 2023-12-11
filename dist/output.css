@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'yekan';
+  src: url(/dist/font/BYekan+.ttf);
+}
+@font-face {
+  font-family: 'yekan bold';
+  src: url(/dist/font/BYekan+\ Bold.ttf);
+}
+
 /*
 ! tailwindcss v3.3.5 | MIT License | https://tailwindcss.com
 */
@@ -825,6 +834,7 @@ select {
   height: 1.75rem;
 }
 
+
 .w-3 {
   width: 0.75rem;
 }
@@ -867,6 +877,10 @@ select {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .gap-1 {
@@ -915,6 +929,10 @@ select {
 
 .border-r-2 {
   border-right-width: 2px;
+}
+
+.border-l-2 {
+  border-left-width: 2px;
 }
 
 .border-solid {
@@ -974,6 +992,10 @@ select {
   padding: 0.25rem;
 }
 
+.p-2 {
+  padding: 0.5rem;
+}
+
 .p-10 {
   padding: 2.5rem;
 }
@@ -1027,8 +1049,20 @@ select {
   padding-bottom: 1.5rem;
 }
 
+.pb-20 {
+  padding-bottom: 5rem;
+}
+
 .pl-3 {
   padding-left: 0.75rem;
+}
+
+.pr-1 {
+  padding-right: 0.25rem;
+}
+
+.pr-2 {
+  padding-right: 0.5rem;
 }
 
 .pr-10 {
@@ -1071,6 +1105,7 @@ select {
   text-align: right;
 }
 
+
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -1088,6 +1123,13 @@ select {
 
 .font-bold {
   font-weight: 700;
+}
+
+.font-yekan {
+  font-family: 'yekan';
+}
+.font-yekanb {
+  font-family: 'yekan bold';
 }
 
 .text-black {
@@ -1148,6 +1190,14 @@ select {
 .text-yellow-500 {
   --tw-text-opacity: 1;
   color: rgb(234 179 8 / var(--tw-text-opacity));
+}
+
+.text-digiblue {
+  color: #19BFD3;
+}
+
+.text-digigreen {
+  color: #00A049;
 }
 
 .line-through {
